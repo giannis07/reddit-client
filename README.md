@@ -60,7 +60,7 @@ npm start
 
 ## Author ✍️
 
-Created by Giannis07 — https://github.com/giannis07
+Created by Ioannis Mousouleas — https://github.com/giannis07
 
 ## License 📄
 
