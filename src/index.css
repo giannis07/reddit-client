@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+#root{
+    background-color: #fcfcfc;
+}
+.postcard{
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)!important;
+    border-radius:5px;
+    padding:10px;
+    margin:20px;
+    color:#444;
+    background-color: #fff;
+     
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+    background-color:#f3f3f3!important;
 }
+
+
+.custom-listitem{
+    transition: background-color 0.3s ease;
+    border: 0px;
+  }
+
+
+.custom-listitem:hover{
+    background-color: #f0f0f0;
+    cursor:pointer;
+}
+
+.selected{
+    background-color: #9aa8ef;
+    border-left:5px solid #174499;
+}
+
+.imgCard{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+    
+}
+.imgCardBox{
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+
+}
+
+.whiteBg{
+    background-color:white!important;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05)!important;
+}
+
+
+ 
