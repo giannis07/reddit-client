@@ -1,4 +1,5 @@
 import { fetchPosts } from '../services/redditAPI';
+import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const getPosts = createAsyncThunk('posts/getPosts', async ({ subreddit, searchQuery }) => {
     const posts = await fetchPosts(subreddit, searchQuery);
