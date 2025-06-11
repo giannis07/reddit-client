@@ -19,5 +19,5 @@ export const posts = [
     comments: ['Great tips!', 'This is helpful!', 'Thanks for sharing!'],
     subreddit: 'JavaScript',
   },
-  // Add more posts as needed
+   
 ];
