@@ -10,8 +10,7 @@ const PostCard = ({ post }) => {
     const dispatch = useDispatch();
 
     const handleCommentsClick = () => {
-        // Αυτό θα μπορούσε να ανοίξει τα σχόλια για το συγκεκριμένο post
-        // Μπορείς να προσθέσεις το Redux slice για να φορτώσει τα σχόλια
+        // Αυτό θα μπορούσε να ανοίξει τα σχόλια για το συγκεκριμένο post         
         dispatch(getPosts({ postId: post.id }));
       };
 
